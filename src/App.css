@@ -1,0 +1,69 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.topo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topo img{
+height: 56px;
+}
+
+.nav{
+  background-color: black;
+  color: white;
+  padding: 4px 10px;
+}
+
+.tudo{
+  background-color: rgb(231, 233, 238);
+}
+
+.quadrado{
+  width: 100%;
+  display: flex;
+  gap: 6px;
+}
+
+.palavras{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.palavras p{
+  margin: 0px;
+}
+
+.lista{
+  list-style: none;
+  margin: 0px;
+  padding: 14px 0px 0px 32px;
+
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+.titulo{
+  font-size: 18px;
+}
+
+.subTitulo{
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+@media screen and (max-width: 600){
+  
+  .nav{
+    background-color: rgb(42, 35, 77);
+    color: white;
+    padding: 4px 10px;
+  }
+}
